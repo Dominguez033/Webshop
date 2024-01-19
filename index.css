@@ -1,0 +1,51 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    color: grey;
+    background-color: lightgrey;
+    margin: auto;
+    padding: 1rem;
+}
+
+header a{
+    text-decoration: none;
+    margin-inline: 10px;
+    color: grey;
+}
+
+table{
+    text-align: left;
+    color: black;
+}
+
+table td{
+    color: gray;
+    padding: 6px;
+}
+
+ol{
+    border: solid grey 1px;
+    padding: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 1rem;
+    gap: 30px;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    color: grey;
+}
+
+/* @media screen and(min-width: 450px){
+    .grid{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+} */
