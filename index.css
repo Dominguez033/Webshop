@@ -23,6 +23,9 @@ ol{
 .gallery img{
     height: 300px;
     width: 250px;
+    border: solid grey 1px;
+    padding-block: 2rem;
+    padding-inline: 0.5rem;
 }
 
 .grid{
