@@ -20,6 +20,10 @@ ol{
     padding: 10px;
 }
 
+.gallery{
+    display: flex;
+}
+
 .gallery img{
     height: 300px;
     width: 250px;
@@ -31,4 +35,47 @@ ol{
 .grid{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
 }
+
+.pic{
+    border: solid grey 1px;
+    width: fit-content;
+    border-radius: 0.6rem;
+    padding: 1rem;
+}
+
+.pic p{
+    border: solid black 2px;
+}
+
+.pic header{
+    color: green;
+    font-weight: bold;
+    padding-inline: 4.5rem;
+}
+
+.pic header, .pic p{
+    width: fit-content;
+}
+
+.pic footer{
+    background-color: lightgrey;
+    padding: 1rem;
+    border-top: solid grey 1px;
+}
+
+.pic a{
+    text-decoration: none;
+    color: goldenrod;
+    background-color: green;
+    border: solid black 2px;
+    padding-inline: 35px;
+    padding-block: 8px;
+}
+
+/* @media screen and(max-width: 450px){
+    *{
+        grid-template-columns: 1fr;
+    }
+} */
